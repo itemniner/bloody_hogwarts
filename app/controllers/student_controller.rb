@@ -1,10 +1,6 @@
 class StudentController < ApplicationController
     def index
-        # if params[:course_id]
-        # @course = Course.find(params[:course_id])
-        # else
         @students = Student.all
-        # end
     end
 
     def show 
